@@ -1,0 +1,32 @@
+@import "./vendor/normalize";
+@import "./partials/colors";
+@import "./partials/mixins";
+@import "./partials/typography";
+
+nav {
+    background-color: $primary-color;
+    ul {
+        padding: 5px;
+        li {
+            font-size: $md-text;
+            font-family: $heading-font;
+            color: white;
+
+        }
+    }
+}
+
+.btn {
+    @include btn();
+}
+
+h1 {
+    font-family: $primary-font;
+    font-size: $l-text;
+}
+
+p {
+    font-family: $body-font;
+    font-size: $s-text;
+    color: $secondary-color;
+}

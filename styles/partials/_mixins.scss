@@ -1,0 +1,6 @@
+@mixin btn () {
+    border-radius: 10px;
+    background-color: $primary-color;
+    color: white;
+    cursor: pointer;
+}
